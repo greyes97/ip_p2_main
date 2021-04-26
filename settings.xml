@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <profiles>
+    <profile>
+      <repositories>
+        <repository>
+        <id>central</id>
+        <name>1197b6987e19-releases</name>
+        <url>http://172.18.0.3:8081/artifactory/parcial2IS</url>
+    </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <snapshots />
+          <id>snapshots</id>
+        <name>1197b6987e19-snapshots</name>
+        <url>http://172.18.0.3:8081/artifactory/parcial2IS</url>
+        </pluginRepository>
+      </pluginRepositories>
+      <id>artifactory</id>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>artifactory</activeProfile>
+  </activeProfiles>
+</settings>

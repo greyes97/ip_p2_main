@@ -33,6 +33,31 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+    		<groupId>gt.edu.umg.ingenieria.sistemas.ingenieria_software.parcial2</groupId>
+    		<artifactId>bubble_sort</artifactId>
+    		<version>0.0.1-20210426.231003-1</version>
+	</dependency>
+	<dependency>
+    		<groupId>gt.edu.umg.ingenieria.sistemas.ingenieria_software.parcial2</groupId>
+    		<artifactId>circle_sort</artifactId>
+    		<version>0.0.1-20210426.231921-1</version>
+	</dependency>
+	<dependency>
+    		<groupId>gt.edu.umg.ingenieria.sistemas.ingenieria_software.parcial2</groupId>
+    		<artifactId>comb_sort</artifactId>
+    		<version>0.0.1-20210426.232950-1</version>
+	</dependency>
+	<dependency>
+    		<groupId>gt.edu.umg.ingenieria.sistemas.ingenieria_software.parcial2</groupId>
+    		<artifactId>head_sort</artifactId>
+    		<version>0.0.1-20210426.233850-1</version>
+	</dependency>
+	<dependency>
+    		<groupId>gt.edu.umg.ingenieria.sistemas.ingenieria_software.parcial2</groupId>
+    		<artifactId>shell_sort</artifactId>
+    		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
     </dependencies>
 
     <build>
